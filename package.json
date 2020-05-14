@@ -1,0 +1,23 @@
+{
+  "name": "vanilla-parcel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rf ./development && rm -rf ./.cache && parcel public/index.html --out-dir development",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
+  },
+  "keywords": [],
+  "author": "Jitendra Nirnejak",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/runtime-corejs2": "^7.9.2",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}

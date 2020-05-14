@@ -1,0 +1,10 @@
+node_modules
+.vscode
+.cache
+temp
+development
+
+dist
+build
+
+.DS_Store
